@@ -1,5 +1,7 @@
 # Astral Metromare
 
+![Logo Astral Metromare: treno stilizzato](custom_components/astral_metromare/brand/logo.png)
+
 Integrazione personalizzata per Home Assistant che mostra i prossimi arrivi
 della [Metromare pubblicati da Astral](https://infomobilita.astralspa.it/#!/prossimiArrivi).
 Scegli una stazione e consulta i primi tre treni in entrambe le direzioni:
