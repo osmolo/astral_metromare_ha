@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Local environments and editor settings
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Local Home Assistant configuration
+.storage/
+secrets.yaml
+home-assistant_v2.db*
+home-assistant.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db

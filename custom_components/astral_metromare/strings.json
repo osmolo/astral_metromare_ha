@@ -1,0 +1,20 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Metromare",
+        "description": "Scegli la stazione per visualizzare i prossimi arrivi.",
+        "data": {
+          "station": "Stazione"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Impossibile recuperare le stazioni da Astral.",
+      "invalid_station": "Seleziona una stazione disponibile."
+    },
+    "abort": {
+      "already_configured": "Questa stazione è già configurata."
+    }
+  }
+}
