@@ -1,11 +1,14 @@
 {
   "domain": "astral_metromare",
   "name": "Astral Metromare",
-  "codeowners": [],
+  "codeowners": [
+    "@osmolo"
+  ],
   "config_flow": true,
-  "documentation": "https://infomobilita.astralspa.it/#!/prossimiArrivi",
+  "documentation": "https://github.com/osmolo/astral_metromare_ha",
+  "issue_tracker": "https://github.com/osmolo/astral_metromare_ha/issues",
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "requirements": [],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

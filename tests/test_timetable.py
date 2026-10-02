@@ -85,6 +85,12 @@ class TimetableTests(unittest.TestCase):
             (None, None, None),
         )
 
+    def test_ignores_transits_with_invalid_date_from_astral(self):
+        self.assertEqual(
+            next_arrivals([transit("Invalid date"), transit("18:45")], self.now),
+            (datetime(2026, 10, 1, 18, 45, tzinfo=ROME), None, None),
+        )
+
     def test_invalid_record_fails_instead_of_reporting_no_trains(self):
         with self.assertRaises(AstralApiError):
             next_arrivals([{"orario": "25:15"}], self.now)

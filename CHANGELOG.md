@@ -2,6 +2,11 @@
 
 Le modifiche rilevanti di Astral Metromare sono documentate qui.
 
+## 1.0.1 - 2026-10-02
+
+- Ignorati i transiti per cui Astral restituisce `Invalid date` come orario,
+  evitando che impediscano l'avvio dell'integrazione.
+
 ## 1.0.0 - 2026-10-01
 
 - Prima versione dell'integrazione per Home Assistant, configurabile dall'interfaccia.
